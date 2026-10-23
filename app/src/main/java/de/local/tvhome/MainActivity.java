@@ -234,7 +234,7 @@ public class MainActivity extends Activity {
 
         // Titel oben links
         TextView title = new TextView(this);
-        title.setText("Zuhause  ·  v1.1");
+        title.setText("Zuhause  ·  v1.2");
         title.setTextColor(0x80FFFFFF);
         setPx(title, 34);
         title.setTypeface(Typeface.create("sans-serif-light", Typeface.NORMAL));
