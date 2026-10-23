@@ -1,0 +1,28 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'de.local.tvhome'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'de.local.tvhome'
+        minSdk 25
+        // Fire OS 7 basiert auf Android 9 (API 28)
+        targetSdk 28
+        versionCode 1
+        versionName '1.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
