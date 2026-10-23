@@ -11,8 +11,8 @@ android {
         minSdk 25
         // Fire OS 7 basiert auf Android 9 (API 28)
         targetSdk 28
-        versionCode 1
-        versionName '1.0'
+        versionCode 2
+        versionName '1.1'
     }
 
     buildTypes {
